@@ -1,13 +1,9 @@
 ---
-name: Sam 
-surname: Olivares-Mejia
-position: "GIS Assistant"
+name: Sam Olivares-Mejia
 email: "sam.olivaresmejia@gmail.com"
-address: "Sonoran Desert Inventory & Monitoring Network"
 linkedin: sam-olivares-mejia
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 0099FF
-aboutme: "I am a data driven scientist and coder passionate about the utilization of quality and ethical data to inform policy decisions and support accessible science communication. This very Resumé was writtin in R using the vitae package."
+headcolor: 202020
 docname: Resume 
 output: vitae::awesomecv
 ---
@@ -33,21 +29,6 @@ source(file = here("r","best_resume.r"))
 
 ```
 
-# Employment
-
-```{r EMPLOYMENT}
-
-work %>%
-  detailed_entries(
-    with = title,
-    what = unit,
-    why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
 # Education
 
 ```{r EDUCATION}
@@ -63,78 +44,62 @@ edu %>%
 
 ```
 
-\pagebreak
+# Experience
 
-# Skills
+```{r EMPLOYMENT}
 
-```{r SKILLS}
-
-skills %>%
+work %>%
   detailed_entries(
-    with = area,
-    what = skills
-  )
-
-```
-
-# Honors
-
-```{r HONORS}
-
-honors %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
+    with = title,
+    what = unit,
     why = detail,
-    when = year,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
     where = where
   )
 
 ```
 
-# Coursework
 
-```{r PROJECTS}
 
-coursework %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-
-```
-
-# Trainings
+# Leadership
 
 ```{r WORKS}
 
-trainings %>%
+leadership %>%
   detailed_entries(
     with = area,
     what = accomplishment,
     why = detail,
-    when = year,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
     where = where
   )
 
 ```
 
-\pagebreak
+# Languages, Software, and Technology
 
-# Certifications
+```{r skills}
 
-```{r CERTIFICATIONS}
-
-certifications %>%
+skills %>%
   detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
+        with = area,
+        what = credit
+)
+    
+```
+
+# References
+
+```{r References}
+
+references %>%
+  detailed_entries(
+    with = name,
+    where = contact
   )
 
 ```
+
+
+
+

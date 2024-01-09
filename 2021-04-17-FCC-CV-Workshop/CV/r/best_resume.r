@@ -1,54 +1,69 @@
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
-   "Bachelors Environmental Studies", 2018, 2022, "Haverford College", "Philadelphia,PA",NA, 
-   "Diploma", 2014, 2018, "University School of Nashville", "Nashville, TN", NA
+   "Bachelors in Environmental Studies with minor in Biology", 2018, 2022, "Haverford College", "Philadelphia, PA", "Honors: Cum Laude Society, Maghill Rhodes Scholar, Center for Peace and Global Citizenship Fellow", 
+   "Bachelors in Environmental Studies with minor in Biology", 2018, 2022, "Haverford College", "Philadelphia, PA", "Relevant Coursework: Biology and Public Policy, Computing Through Biology, Decolonial Science Technology mand Environment, Ecology, Ecological Modeling, Environment and Society, Global Change Biology, Intro to GIS/Environmental Analysis, Modeling and Policy Making, Research Methods and Statistics, Senior Thesis Research", 
+   "High School Diploma", 2014, 2018, "University School of Nashville", "Nashville, TN", NA
 
 )
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "GIS Assistant", "Sonoran Desert Inventory & Monitoring Network | Scientists in the Parks Intern | Conservation Legacy ", "June", 2022, NA, NA, "Tucson, AZ", "PROGRAMS USED: R, Rmarkdown, HTML, GitHub, ArcGIS Field Maps", 
-    "GIS Assistant", "Sonoran Desert Inventory & Monitoring Network | Scientists in the Parks Intern | Conservation Legacy ", "June", 2022, NA, NA, "Tucson, AZ", "Data management intern with the Southwest Network Collaborative resposinble for writing quality checks, cleaning data, and developing a data release report for the Big Rivers Protocol.",
-    "GIS Assistant", "Sonoran Desert Inventory & Monitoring Network | Scientists in the Parks Intern | Conservation Legacy ", "June", 2022, NA, NA, "Tucson, AZ", "Develops and facilitates monthly R Trainings for the network covering topics such as foundations in RStudio/RMarkdown, data wrangling, reproducability, version control, and functional programming.", 
-    "GIS Assistant", "Sonoran Desert Inventory & Monitoring Network | Scientists in the Parks Intern | Conservation Legacy ", "June", 2022, NA, NA, "Tucson, AZ", "Occasional fieldwork for the vegetation, wildlife, and streams protocols in addition to IT opperations support.", 
-    "Student Researcher", "Bryn Mawr College Biology Department", "August", 2021, "May", 2022, "Bryn Mawr, PA", "TO DO",
-    "REU Cohort Member", "Harvard Forest", "May", 2021, "August", 2022, "Remote", "TO DO",
-    "Access and Diversity Intern | Admissions Fellow | Student Admissions Advisory Committee Member", "Haverford College Office of Admissions", "August", 2019, "May", 2022, "Ardmore, PA", "TO DO", 
-    "Student Worker", "Haverford College Administrative Auxilliary Services", "August", 2019, "May", 2022, "Ardmore, PA", "TO DO",
-    "Seasonal Naturalist", "Warner Parks Nature Center", "May", 2020, "August", 2020, "Nashville, TN", "TO DO", 
-    "Conservation Intern", "Radnor to River", "May", 2020, "August", 2020, "Remote | Nashville, TN", "TO DO",
-    "Teacher's Assistant", "Horizons at University School of Nashville", "Summers", 2017, NA, 2019, "Nashville, TN", "TO DO", 
-)
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Scientists in the Parks intern for the Southwest Network Collaboration Data Management Team as part of the National Park Service’s Inventory and Monitoring Division that effectively manage decades worth of long term ecological data across various protocols.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Researches the use of automated image processing in Python via JupyterNotebooks, geoprocessing in ArcPro, and remote sensing imagery to monitor dunefield stability and integrity at White Sands National Park.",
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Writes reproducible code in R Statistical Language accompanied by detailed project documentation to automate quality checks, flagging, and data processing of vegetation plot data in preparation for publication on NPS’ DataStore.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Experienced in managing field map applications in NPS’ ArcGIS Enterprise Portal in addition to other geospatial tools such as ModelBuilder, Story Maps, Survey123, Dashboards, and SQL.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Develops curriculum as co-leader of SWNC’s R Training series to expand and strengthen the use of data wrangling, data visualization, and functional programming within the network.", 
+    "Bryn Mawr College Biology Department","Student Researcher", "August", 2021, "May", 2022, "Bryn Mawr, PA", "Student Researcher in the Record Computational Biology Lab at Bryn Mawr College specialized on collating land use disturbance histories within the National Ecological Observatory Network (NEON).",
+    "Bryn Mawr College Biology Department","Student Researcher",  "August", 2021, "May", 2022, "Bryn Mawr, PA", "Researched, collected, and standardized 59 spatial data products in R programming, pulling data from various public databases such as IRMA DataStore, Forest Service Geodata Clearinghouse, Land Treatment Data Library, and Geospatial Data Discovery.",
+    "Bryn Mawr College Biology Department","Student Researcher",  "August", 2021, "May", 2022, "Bryn Mawr, PA", "Digitized remote sensing imagery to categorize land use types across NEON sites using the National Land Cover Database land cover classifications which required working with different file types and using various geoprocessing and analysis techniques.",
+    "Bryn Mawr College Biology Department","Student Researcher",  "August", 2021, "May", 2022, "Bryn Mawr, PA", "Managed correspondence with data managers, principal investigators, and site managers at 32 sites within NEON and presented senior thesis research findings at Bryn Mawr College’s biology department research symposium.",
+    "Harvard Forest Research Experience for Undergraduates in Ecology", "Student Researcher", "May", 2021, "August", 2022, "Remote", "Selected as 2021 cohort member in Harvard Forest’s Research Experience for Undergraduates in Ecology funded by the National Science Foundation as part of the 'Land Use History of National Ecological Observatory Network Sites' subgroup of the 'Land Use and  Carbon Flux Forecasting' project.",
+    "Harvard Forest Research Experience for Undergraduates in Ecology", "Student Researcher", "May", 2021, "August", 2022, "Remote", "Created 15 spatial data products using R Programming and geoprocessing techniques in QGIS for the Bartlett Experimental Forest and Smithsonian Environmental Research Center.",
+    "Harvard Forest Research Experience for Undergraduates in Ecology", "Student Researcher", "May", 2021, "August", 2022, "Remote", "Received professional development training in  topics such as the relevancy of geographic information science within the ecological community, project management and documentation skills, and education on the importance of ecological networks. ",
+    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Awarded fellowship from Haverford College’s Center for Peace and Global citizenship to intern as a Seasonal Naturalist for the Warner Park Nature Center (WPNC).", 
+    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Compiled resources on diversity, equity, and inclusion highly influenced by Dorceta E Taylor’s research on DEI in environmental organizations to increase DEI practices within the WPNC.",
+    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Translated nature center brochures and interpretive programming from English to Spanish to increase accessibility to Spanish speaking communities within the parks.",
+    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Entered long term ecological data and assisted bird banding for the Bird Information Research and Data Program.", 
+    "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Awarded fellowship from Haverford College’s Center for Peace and Global citizenship to intern as an intern for Radnor To River, an environmental conservation non profit.",
+    "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Established database of environmental organizations within the greater Nashville area in order to support collaboration within conservation efforts, managing correspondence with organization contacts across the city.",
+    "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Developed INaturalist project to promote citizen science efforts and monitor invasive species to ground truth remote sensing data. ",
+    "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Represented Haverford College by leading campus tours, hosting panels, and engaging in 1:1 conversations with prospective students and families",
+    "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Appointed to Student Admissions Advisory Committee responsible for the hiring and training of new Admissions Fellows",
+    "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Organized and facilitated campus fly-in programs for prospective students from traditionally underrepresented groups in higher education."
+     )
 honors <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Cum Laude Society", "TO DO", 2022, "Haverford College", NA,
-    "Center for Peace and Global Citizenship Fellow", "TO DO", 2020, "Haverford College", NA,
-    "Magill-Rhoads Scholar", "TO DO", 2018, "Haverford College", NA,
-    "Cum Laude Society", "TO DO", 2018, "University School of Nashville", NA
+    "Cum Laude", "Presented to the students with a GPA in the top 20% of the graduating class.", "2022", "Haverford College", NA,
+    "Center for Peace and Global Citizenship Fellow", "Awarded fellowship funding for a self designed internship with Warner Parks Nature Center and Radnor to River. Selction was based on the student's ability to advance peace, justice, inclusivity and/or sustainability.", "2020", "Haverford College", NA,
+    "Magill-Rhoads Scholar", "Awarded grant towards tuition for academeic excellence and significant acheivements in community service.", "2018-2022", "Haverford College", NA
 )
 
 ## change to start year end year start month etc. 
+
 leadership <- tribble(
-    ~area, ~accomplishment, ~year, ~where, ~detail,
-    "Haverford College", "Officer of Multiculturalism", 2021, "Student Council", "TO DO",
-    "Haverford College", "Co-President | Senior Advisor | Bi-College Representative", 2019, "Pulso Latino Dance Troupe", "TO DO", 
-    "Haverford College", "Board Member | Latnix Center Committee and Resident Advisor ", 2019, "Alliance of Latin American Students", "TO DO", 
-    "Haverford College", "Volunteer | Class Instructor", 2018, "Haverfarm", "TO DO" ,
-    "Haverford College", "Co-President", 2020, "Environmental House", "TO DO", 
-    "Haverford College", "Residential Advisor", 2018, "Customs Program", "TO DO", 
-    "Haverford College", "Green Squirrel Advocate", 2018, "Committee for Environmental Responsibility", "TO DO", 
-    "Tutoring", "Math, English, and Spanish Tutor", 2014, "Front Lines Tutoring | Bethel Academy | Big Brothers Big Sisters | Beyond Edgehill", "TO DO",
-    "Communications", "Social Media Coordinator", 2022, "Society for Conservation GIS", "TO DO", 
-    "Commmunications", "Social Media Coordinator", 2022, "Climbing in Color", "TO DO"
-)
+    ~area, ~accomplishment, ~startYear,~endYear,  ~where, ~detail,
+    "Pulso Latino Dance Troupe", "President | Senior Advisor | Bi-College Representative", 2019, 2022,"Haverford College" , "Elected in various board member positions for three consecutive years with experience moderating group discussions, maintaining detailed project documentation, and scheduling group events.", 
+    "Pulso Latino Dance Troupe", "President | Senior Advisor | Bi-College Representative", 2019, 2022, "Haverford College", "Helped coordinate three showcases which required managing correspondence between multiple college organizations to manage social media, rehearsals, and show logistics for 50+ dancers.",
+    "Alliance of Latin American Students", "Board Member | Senior Advisor ", 2019, 2022, "Haverford College", "Served on the board for the Alliance of Latin American Students for three consecutive years to coordinate cultural events, coordinate budgets, and disseminate organizational information to foster an inclusive community on campus.", 
+    "Alliance of Latin American Students", "Board Member | Senior Advisor ", 2019, 2022, "Haverford College", "Helped to establish the Latinx Cultural Center at Haverford College which required frequent meetings and formal correspondence between college administration and student leaders.",
+    "Committee for Environmental Responsibility", "Member of Waste Subgroup", 2018, 2020, "Haverford College", "Developed programming surrounding environmental advocacy by corresponding and coordinating with various student groups and organizations, and served as 'Green Squirrel' representative to disseminate campus wide initiatives to dorm residents.",
+    "Environmental Community House", "President", 2020, 2021, "Haverford College", "Elected Co-President for the environmental resident community house to organize budgets, programming, and events for up to 50 students on a monthly basis.",  
+    "Additional Volunteer and Leadership Roles","  Residential Advisor | Student Council Officer of Multiculturalism | Haverfarm Volunteer | Math,English, and Spanish Tutor", 2018, 2022, "Haverford College", "Served in leadership roles for various campus organizations with skills in event coordination, project management and documentation, budget development, campus-wide communication, and community engagement"
+    )
+
+
+
 skills <- tribble(
-    ~area, ~skills,
-    "Programming Languages", "R, Python, Basic SQL",
-    "Geographic Information Systems", "QGIS, ESRI Suite | ArcMap, ArcGIS Pro, Field Maps, Survey 123, Story Maps, Dashboards",
-    "Markup Languages", "HTML, RMarkdown, Basic LaTeX", 
-    "Version Control", "GIT,Github Desktop",
-    "Software", "RStudio, Microsoft Office Suite | Excel, Outlook, OneNote, Powerpoint, Word"
+    ~area, ~credit,
+    "ArcPro, StoryMap, Field Maps, Dashboards, Survey 123, Model Builder, R Statistical Language, Python, Jupyter Notebooks, RMarkdown, HTML, SQL, GitHub, QGIS, Leica RTK GNSS Receivers, Terrestrial Lidar Scanner, Zeno Connect/Mobile, Spanish", "This resume was created using the R package vitae and adapted from Bryan Jenk's 'Data Driven CV'"
+    )
+
+references <- tribble(
+    ~name, ~contact,
+    "Mark Isley | Data Manager at The Chihuahuan Desert Network", "mark_isely@nps.gov",
+    "Sydne Record | Associate Professor of Landscape Conservation at The University of Maine", "sydne.record@maine.edu"
 )
+    
 trainings <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Programming Languages", "R", 2022, "Sonoran Desert Network", "TO DO"
@@ -64,6 +79,11 @@ certifications <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
 )
 
+
+
+#extra <- 
+#"Haverford College Administrative Auxilliary Services", "Student Worker", "August", 2019, "May", 2022, "Ardmore, PA","SKILLS: Organization, Teamwork, Communication",
+#"Haverford College Administrative Auxilliary Services", "Student Worker", "August", 2019, "May", 2022, "Ardmore, PA", "Team member in the mailroom working to efficiently receive, organize, and deliver packages to over 1400 students, faculty, and staff",
 
 
 
