@@ -87,6 +87,14 @@ skills %>%
 )
     
 ```
+# ESRI Certificates
+```{r Certificates}
+certifications %>%
+  detailed_entries(
+    with = area,
+    when = year
+  )
+```
 
 # References
 
@@ -99,6 +107,7 @@ references %>%
   )
 
 ```
+
 
 
 

@@ -8,11 +8,16 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Scientists in the Parks intern for the Southwest Network Collaboration Data Management Team as part of the National Park Service’s Inventory and Monitoring Division that effectively manage decades worth of long term ecological data across various protocols.", 
-    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Researches the use of automated image processing in Python via JupyterNotebooks, geoprocessing in ArcPro, and remote sensing imagery to monitor dunefield stability and integrity at White Sands National Park.",
-    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Writes reproducible code in R Statistical Language accompanied by detailed project documentation to automate quality checks, flagging, and data processing of vegetation plot data in preparation for publication on NPS’ DataStore.", 
-    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Experienced in managing field map applications in NPS’ ArcGIS Enterprise Portal in addition to other geospatial tools such as ModelBuilder, Story Maps, Survey123, Dashboards, and SQL.", 
-    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "Present", NA, "Tucson, AZ", "Develops curriculum as co-leader of SWNC’s R Training series to expand and strengthen the use of data wrangling, data visualization, and functional programming within the network.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "One of three fellows in the prestegious Dangermond Fellowship program for the National Audubon Society's Enterprise GIS team in partnership with ESRI aimed to foster the next generation of leaders in the enterprise GIS, science, and nonprofit/conservation sectors.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Receives extensive and immersive training on in the full ArcGIS platform with emphasis on ArcPro, ArcGIS Online, ArcGIS Hubs, Dashboards, Survey 123, Experience Builder, and Story Maps.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Trains, educates, and empowers hundreds of users throughout the Audubon network by administering enterprise accounts, responding to user needs, and managing creation and maintenance of authoritative geospatial datasets, maps, and apps.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Strengthens relationships, provides consultation, and promotes integration of GIS technologies to foster multidisciplinary geospatial research and education across the organization.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Builds reproducible tools and templatized products uding Python, R, and Model Builder to support geoprocessing services and upbhold geospatial metadata standards.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Scientists in the Parks intern for the Southwest Network Collaboration Data Management Team as part of the National Park Service’s Inventory and Monitoring Division that manages decades worth of long term ecological data across various protocols.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Researched the use of automated image processing in Python via JupyterNotebooks, geoprocessing in ArcPro, and remote sensing imagery to monitor dunefield stability and integrity at White Sands National Park.",
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Wrote reproducible code in R Statistical Language accompanied by detailed project documentation to automate quality checks, flagging, and data processing of vegetation plot data in preparation for publication on NPS’ DataStore.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Trained to manage field map applications in NPS’ ArcGIS Enterprise Portal in addition to other geospatial tools such as ModelBuilder, Story Maps, Survey123, Dashboards, and SQL.", 
+    "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Developed curriculum as co-leader of SWNC’s R Training series to expand and strengthen the use of data wrangling, data visualization, and functional programming within the network.", 
     "Bryn Mawr College Biology Department","Student Researcher", "August", 2021, "May", 2022, "Bryn Mawr, PA", "Student Researcher in the Record Computational Biology Lab at Bryn Mawr College specialized on collating land use disturbance histories within the National Ecological Observatory Network (NEON).",
     "Bryn Mawr College Biology Department","Student Researcher",  "August", 2021, "May", 2022, "Bryn Mawr, PA", "Researched, collected, and standardized 59 spatial data products in R programming, pulling data from various public databases such as IRMA DataStore, Forest Service Geodata Clearinghouse, Land Treatment Data Library, and Geospatial Data Discovery.",
     "Bryn Mawr College Biology Department","Student Researcher",  "August", 2021, "May", 2022, "Bryn Mawr, PA", "Digitized remote sensing imagery to categorize land use types across NEON sites using the National Land Cover Database land cover classifications which required working with different file types and using various geoprocessing and analysis techniques.",
@@ -55,11 +60,12 @@ leadership <- tribble(
 
 skills <- tribble(
     ~area, ~credit,
-    "ArcPro, StoryMap, Field Maps, Dashboards, Survey 123, Model Builder, R Statistical Language, Python, Jupyter Notebooks, RMarkdown, HTML, SQL, GitHub, QGIS, Leica RTK GNSS Receivers, Terrestrial Lidar Scanner, Zeno Connect/Mobile, Spanish", "This resume was created using the R package vitae and adapted from Bryan Jenk's 'Data Driven CV'"
+    "ArcGIS Suite (Pro, StoryMaps, Dashboards, Survey 123, Experience Builder, Hub, etc.) R, Python, Jupyter Notebooks, Markdown, HTML, SQL, GitHub, QGIS, Snowflake, Airtable, Spanish", "This resume was created using the R package vitae and adapted from Bryan Jenk's 'Data Driven CV'"
     )
 
 references <- tribble(
     ~name, ~contact,
+    "Christina Farber | Director of Enterprise GIS at the National Audubon Society", "christina.farber@audubon.org",
     "Mark Isley | Data Manager at The Chihuahuan Desert Network", "mark_isely@nps.gov",
     "Sydne Record | Associate Professor of Landscape Conservation at The University of Maine", "sydne.record@maine.edu"
 )
@@ -76,7 +82,16 @@ coursework <- tribble(
 )
 
 certifications <- tribble(
-    ~area, ~accomplishment, ~year, ~where, ~detail,
+    ~area, ~year, 
+    "GIS for Climate Action MOOC", 2023,
+    "Spatial Data Science: The New Frontier in Spatial Analytics MOOC", 2023,
+    "Visualizing Data Using ArcGIS for Python", 2023,
+    "Performing Analysis Using ArcGIS API for Python", 2023, 
+    "Accessing Data in Portal Using ArcGIS API for Python",2023,
+    "Suitability Modeling: Creating a Simple Suitability Model", 2023,
+    "Building Geoprocessing Models Using ArcGIS Pro", 2023,
+    "ArcGIS Survey123: Using ArcGIS Survey123 Connect", 2023,
+    "Using Arcade with ArcGIS Field Apps", 2023
 )
 
 
