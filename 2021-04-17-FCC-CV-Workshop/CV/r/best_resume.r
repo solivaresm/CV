@@ -9,10 +9,11 @@ edu <- tribble(
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
     "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "One of three fellows in the prestegious Dangermond Fellowship program for the National Audubon Society's Enterprise GIS team in partnership with ESRI aimed to foster the next generation of leaders in the enterprise GIS, science, and nonprofit/conservation sectors.", 
-    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Receives extensive and immersive training on in the full ArcGIS platform with emphasis on ArcPro, ArcGIS Online, ArcGIS Hubs, Dashboards, Survey 123, Experience Builder, and Story Maps.", 
-    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Trains, educates, and empowers hundreds of users throughout the Audubon network by administering enterprise accounts, responding to user needs, and managing creation and maintenance of authoritative geospatial datasets, maps, and apps.", 
-    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Strengthens relationships, provides consultation, and promotes integration of GIS technologies to foster multidisciplinary geospatial research and education across the organization.", 
-    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Builds reproducible tools and templatized products uding Python, R, and Model Builder to support geoprocessing services and upbhold geospatial metadata standards.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Engineers and delivers GIS-based decision support tools (web & mobile maps/apps) to stakeholders, partners, and the public using the full Esri suite (including StoryMaps, Hub, Experience Builder, Survey123, Field Maps, etc.)", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Trains, educates, and empowers hundreds of users throughout the Audubon network by developing education materials and online resources like quarterly GIS newsletters and an Open Data Library to inform technical and non-technical audiences about program goals and opportunities for professional development.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Provides consultation and project management to create sustainable GIS solutions for complex issues that help Audubon meet its conservation goals and natural resource management initiatives.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Creates,publishes, and maintains authoratative data, as administrator in ArcGIS Enterprise and ArcGIS Online following geospatial metadata standards.", 
+    "National Audubon Society Enterprise GIS", "Dangermond Fellow", "June", 2023, "Present", NA, "Remote", "Builds reproducible tools and templatized products using Python, R, and Model Builder to automate geoprocessing workflows.", 
     "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Scientists in the Parks intern for the Southwest Network Collaboration Data Management Team as part of the National Park Service’s Inventory and Monitoring Division that manages decades worth of long term ecological data across various protocols.", 
     "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Researched the use of automated image processing in Python via JupyterNotebooks, geoprocessing in ArcPro, and remote sensing imagery to monitor dunefield stability and integrity at White Sands National Park.",
     "Sonoran Desert Inventory & Monitoring Network", "Data Science Intern", "June", 2022, "June", 2023, "Tucson, AZ", "Wrote reproducible code in R Statistical Language accompanied by detailed project documentation to automate quality checks, flagging, and data processing of vegetation plot data in preparation for publication on NPS’ DataStore.", 
@@ -66,14 +67,15 @@ skills <- tribble(
 references <- tribble(
     ~name, ~contact,
     "Christina Farber | Director of Enterprise GIS at the National Audubon Society", "christina.farber@audubon.org",
-    "Mark Isley | Data Manager at The Chihuahuan Desert Network", "mark_isely@nps.gov",
-    "Sydne Record | Associate Professor of Landscape Conservation at The University of Maine", "sydne.record@maine.edu"
+    "Ryan Hobbs | Senior Manager GIS Products", "ryan.hobbs@audubon.org",
+    "Helen Thomas | Data Manager at the Sonoran Desert Network", "helen_thomas@nps.gov"
 )
     
 trainings <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Programming Languages", "R", 2022, "Sonoran Desert Network", "TO DO"
 )
+
 coursework <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Haverford College", NA, NA, NA, NA,
@@ -91,7 +93,7 @@ certifications <- tribble(
     "Suitability Modeling: Creating a Simple Suitability Model", 2023,
     "Building Geoprocessing Models Using ArcGIS Pro", 2023,
     "ArcGIS Survey123: Using ArcGIS Survey123 Connect", 2023,
-    "Using Arcade with ArcGIS Field Apps", 2023
+    "Using Arcade with ArcGIS Field Apps", 2023,
 )
 
 

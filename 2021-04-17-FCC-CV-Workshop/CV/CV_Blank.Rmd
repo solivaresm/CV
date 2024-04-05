@@ -43,6 +43,17 @@ edu %>%
   )
 
 ```
+# Languages, Software, and Technology
+
+```{r skills}
+
+skills %>%
+  detailed_entries(
+        with = area,
+        what = credit
+)
+    
+```
 
 # Experience
 
@@ -59,8 +70,6 @@ work %>%
 
 ```
 
-
-
 # Leadership
 
 ```{r WORKS}
@@ -76,17 +85,7 @@ leadership %>%
 
 ```
 
-# Languages, Software, and Technology
 
-```{r skills}
-
-skills %>%
-  detailed_entries(
-        with = area,
-        what = credit
-)
-    
-```
 # ESRI Certificates
 ```{r Certificates}
 certifications %>%
