@@ -1,7 +1,7 @@
 edu <- tribble(
     ~degree, ~startYear, ~endYear, ~inst, ~where, ~detail,
    "Bachelors in Environmental Studies with minor in Biology", 2018, 2022, "Haverford College", "Philadelphia, PA", "Honors: Cum Laude Society, Maghill Rhodes Scholar, Center for Peace and Global Citizenship Fellow", 
-   "Bachelors in Environmental Studies with minor in Biology", 2018, 2022, "Haverford College", "Philadelphia, PA", "Relevant Coursework: Biology and Public Policy, Computing Through Biology, Decolonial Science Technology mand Environment, Ecology, Ecological Modeling, Environment and Society, Global Change Biology, Intro to GIS/Environmental Analysis, Modeling and Policy Making, Research Methods and Statistics, Senior Thesis Research", 
+   "Bachelors in Environmental Studies with minor in Biology", 2018, 2022, "Haverford College", "Philadelphia, PA", "Relevant Coursework: Biology and Public Policy, Computing Through Biology, Decolonial Science Technology and Environment, Ecology, Ecological Modeling, Environment and Society, Global Change Biology, Intro to GIS/Environmental Analysis, Modeling and Policy Making, Research Methods and Statistics, Senior Thesis Research", 
    "High School Diploma", 2014, 2018, "University School of Nashville", "Nashville, TN", NA
 
 )
@@ -35,8 +35,8 @@ work <- tribble(
     "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Developed INaturalist project to promote citizen science efforts and monitor invasive species to ground truth remote sensing data. ",
     "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Represented Haverford College by leading campus tours, hosting panels, and engaging in 1:1 conversations with prospective students and families",
     "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Appointed to Student Admissions Advisory Committee responsible for the hiring and training of new Admissions Fellows",
-    "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Organized and facilitated campus fly-in programs for prospective students from traditionally underrepresented groups in higher education."
-     )
+    "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Organized and facilitated campus fly-in programs for prospective students from traditionally underrepresented groups in higher education.",
+)
 honors <- tribble(
     ~area, ~accomplishment, ~year, ~where, ~detail,
     "Cum Laude", "Presented to the students with a GPA in the top 20% of the graduating class.", "2022", "Haverford College", NA,
@@ -57,7 +57,12 @@ leadership <- tribble(
     "Additional Volunteer and Leadership Roles","  Residential Advisor | Student Council Officer of Multiculturalism | Haverfarm Volunteer | Math,English, and Spanish Tutor", 2018, 2022, "Haverford College", "Served in leadership roles for various campus organizations with skills in event coordination, project management and documentation, budget development, campus-wide communication, and community engagement"
     )
 
-
+talks <- tribble(
+    ~area, ~year, 
+    "Ecological Society of America SEEDs Career Panel", 2024,
+    "Scientists in Parks Webinar: Becoming an SIP Intern", 2023,
+    "Ecological Society of America Water Cooler Chat: Expanding the ecological tent with environmental data science", 2022
+)
 
 skills <- tribble(
     ~area, ~credit,
