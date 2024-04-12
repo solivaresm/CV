@@ -27,12 +27,12 @@ work <- tribble(
     "Harvard Forest Research Experience for Undergraduates in Ecology", "Student Researcher", "May", 2021, "August", 2022, "Remote", "Created 15 spatial data products using R Programming and geoprocessing techniques in QGIS for the Bartlett Experimental Forest and Smithsonian Environmental Research Center.",
     "Harvard Forest Research Experience for Undergraduates in Ecology", "Student Researcher", "May", 2021, "August", 2022, "Remote", "Received professional development training in  topics such as the relevancy of geographic information science within the ecological community, project management and documentation skills, and education on the importance of ecological networks. ",
     "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Awarded fellowship from Haverford College’s Center for Peace and Global citizenship to intern as a Seasonal Naturalist for the Warner Park Nature Center (WPNC).", 
-    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Compiled resources on diversity, equity, and inclusion highly influenced by Dorceta E Taylor’s research on DEI in environmental organizations to increase DEI practices within the WPNC.",
+    "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Compiled resources on diversity, equity, and inclusion highly influenced by Dorceta E Taylor’s research on Diversity, Equity and Inclusion (DEI) in environmental organizations to increase DEI practices within the WPNC.",
     "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Translated nature center brochures and interpretive programming from English to Spanish to increase accessibility to Spanish speaking communities within the parks.",
     "Warner Parks Nature Center", "Seasonal Naturalist", "May", 2020, "August", 2020, "Nashville, TN", "Entered long term ecological data and assisted bird banding for the Bird Information Research and Data Program.", 
     "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Awarded fellowship from Haverford College’s Center for Peace and Global citizenship to intern as an intern for Radnor To River, an environmental conservation non profit.",
     "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Established database of environmental organizations within the greater Nashville area in order to support collaboration within conservation efforts, managing correspondence with organization contacts across the city.",
-    "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Developed INaturalist project to promote citizen science efforts and monitor invasive species to ground truth remote sensing data. ",
+    "Radnor to River", "Conservation Intern", "May", 2020, "August", 2020, "Remote | Nashville, TN", "Developed INaturalist project to promote community science efforts and monitor invasive species to ground truth remote sensing data. ",
     "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Represented Haverford College by leading campus tours, hosting panels, and engaging in 1:1 conversations with prospective students and families.",
     "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Appointed to Student Admissions Advisory Committee responsible for the hiring and training of new Admissions Fellows",
     "Haverford College Office of Admissions","Access and Diversity Intern | Admissions Office Fellow | Student Admissions Advisory Committee Member ", "August", 2019, "May", 2022, "Ardmore, PA", "Organized and facilitated campus fly-in programs for prospective students from traditionally underrepresented groups in higher education.",
@@ -50,7 +50,7 @@ leadership <- tribble(
     ~area, ~accomplishment, ~startYear,~endYear,  ~where, ~detail,
     "Pulso Latino Dance Troupe", "President | Senior Advisor | Bi-College Representative", 2019, 2022,"Haverford College" , "Elected in various board member positions for three consecutive years with experience moderating group discussions, maintaining detailed project documentation, and scheduling group events.", 
     "Pulso Latino Dance Troupe", "President | Senior Advisor | Bi-College Representative", 2019, 2022, "Haverford College", "Helped coordinate three showcases which required managing correspondence between multiple college organizations to manage social media, rehearsals, and show logistics for 50+ dancers.",
-    "Alliance of Latin American Students", "Board Member | Senior Advisor ", 2019, 2022, "Haverford College", "Served on the board for the Alliance of Latin American Students for three consecutive years to coordinate cultural events, coordinate budgets, and disseminate organizational information to foster an inclusive community on campus.", 
+    "Alliance of Latin American Students", "Board Member | Senior Advisor ", 2019, 2022, "Haverford College", "Served on the board for the Alliance of Latin American Students for three consecutive years to coordinate cultural events, manage budgets, and disseminate organizational information to foster an inclusive community on campus.", 
     "Alliance of Latin American Students", "Board Member | Senior Advisor ", 2019, 2022, "Haverford College", "Helped to establish the Latinx Cultural Center at Haverford College which required frequent meetings and formal correspondence between college administration and student leaders.",
     "Committee for Environmental Responsibility", "Member of Waste Subgroup", 2018, 2020, "Haverford College", "Developed programming surrounding environmental advocacy by corresponding and coordinating with various student groups and organizations, and served as 'Green Squirrel' representative to disseminate campus wide initiatives to dorm residents.",
     "Environmental Community House", "President", 2020, 2021, "Haverford College", "Elected Co-President for the environmental resident community house to organize budgets, programming, and events for up to 50 students on a monthly basis.",  
@@ -71,9 +71,9 @@ skills <- tribble(
 
 references <- tribble(
     ~name, ~contact,
-    "Christina Farber | Director of Enterprise GIS at the National Audubon Society", "christina.farber@audubon.org",
-    "Ryan Hobbs | Senior Manager GIS Products", "ryan.hobbs@audubon.org",
-    "Helen Thomas | Data Manager at the Sonoran Desert Network", "helen_thomas@nps.gov"
+    "Christina Farber | Director of Enterprise GIS, National Audubon Society", "christina.farber@audubon.org",
+    "Ryan Hobbs | Senior Manager GIS Products, National Audubon Society", "ryan.hobbs@audubon.org",
+    "Helen Thomas | Data Manager, Sonoran Desert Inventory and Monitoring Network", "helen_thomas@nps.gov"
 )
     
 trainings <- tribble(
